@@ -1,16 +1,20 @@
-# Supply Chain Logistics Brunel Freight Cost Minimization - Operations Research Project
+# Freight Cost Minimization Supply Chain Logistics Brunel - Operations Research Project
 
-[![SQL](https://img.shields.io/badge/SQL-4682B4?style=for-the-badge)]()
-[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/)
-[![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=excel&logoColor=white)]()
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white)](https://www.anaconda.com/)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)]()
+[![PuLP](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)]()
+
 [![Word](https://img.shields.io/badge/Microsoft_Word-2B579A?style=for-the-badge&logo=word&logoColor=white)]()
 [![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)](https://www.markdownguide.org)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com)
 
 ## 📌 Overview
 
-*SQL Project - Brazilian E-Commerce Analysis* provides a business-first, data-driven diagnostic of one of Brazil’s largest e-commerce marketplace, **Olist**. Moving beyond descriptive statistics, this analysis utilizes advanced SQL to dissect the commercial lifecycle of over **100,000** orders spans from **2016–2018**. The primary objective is to identify levers for **revenue stability, customer retention, and operational excellence** by uncovering hidden frictions in the order funnel and seller performance.
+*Operations Research Project - Freight Cost Minimization Supply Chain Logistics Brunel* provides a business-first, data-driven diagnostic of one of Brazil’s largest e-commerce marketplace, **Olist**. Moving beyond descriptive statistics, this analysis utilizes advanced SQL to dissect the commercial lifecycle of over **100,000** orders spans from **2016–2018**. The primary objective is to identify levers for **revenue stability, customer retention, and operational excellence** by uncovering hidden frictions in the order funnel and seller performance.
 
 Each of the **10 analyses** in this project follows a structured analytical framework:
 
