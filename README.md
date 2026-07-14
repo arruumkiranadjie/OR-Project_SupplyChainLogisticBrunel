@@ -28,18 +28,25 @@ Each of the **10 analyses** in this project follows a structured analytical fram
 ```
 OR-Project_SupplyChainLogisticBrunel
 │
-├── README.md                                ← README
+├── README.md                                     ← README
 │
-├── data                                     ← Datasets Used For This Project
+├── data                                          ← Datasets Used For This Project
 │   └── supply_chain.xlsx
 │
-└── src                                      ← Source Code
-    └── data                                 ← Linear Programming Optimization Model
+├── results                                       ← All Results and Analysis CSV Files
+│   ├── carrier_summary.csv
+│   ├── dual_price.csv
+│   ├── mode_summary.csv
+│   ├── optimal_assignment.csv
+│   └── optimal_strategy.csv
+│
+└── src                                           ← Source Code
+    └── OR_LP_SupplyChainLogisticBrunel.ipynb     ← Linear Programming Optimization Model
 ```
 
 ## 📊 Dataset 
 
-The Dataset is sourced from the [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) on Kaggle. It is a real, anonymised commercial dataset covering the operations of Olist, a marketplace that connects small businesses across Brazil to customers through a single contract.
+The Dataset is sourced from the [Supply Chain Logistics Problem Dataset by Brunel University (https://brunel.figshare.com/articles/dataset/Supply_Chain_Logistics_Problem_Dataset/7558679/2?file=20162015) on Brunel University Official Repository Website. It is a real, anonymised commercial dataset covering the operations of Olist, a marketplace that connects small businesses across Brazil to customers through a single contract.
 
 | Table | Description |
 |---|---|
