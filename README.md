@@ -46,7 +46,9 @@ OR-Project_SupplyChainLogisticBrunel
 
 ## 📊 Dataset 
 
-The Dataset is sourced from the [Supply Chain Logistics Problem Dataset by Brunel University] (https://brunel.figshare.com/articles/dataset/Supply_Chain_Logistics_Problem_Dataset/7558679/2?file=20162015) on Brunel University Official Repository Website. It is a real, anonymised commercial dataset covering the operations of Olist, a marketplace that connects small businesses across Brazil to customers through a single contract.
+The Dataset is sourced from the [Supply Chain Logistics Problem Dataset by Brunel University](https://brunel.figshare.com/articles/dataset/Supply_Chain_Logistics_Problem_Dataset/7558679/2?file=20162015)
+
+on Brunel University Official Repository Website. It is a real, anonymised commercial dataset covering the operations of Olist, a marketplace that connects small businesses across Brazil to customers through a single contract.
 
 | Table | Description |
 |---|---|
