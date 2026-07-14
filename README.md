@@ -46,18 +46,37 @@ OR-Project_SupplyChainLogisticBrunel
 
 ## 📊 Dataset 
 
-The Dataset is sourced from the [Supply Chain Logistics Problem Dataset by Brunel University](https://brunel.figshare.com/articles/dataset/Supply_Chain_Logistics_Problem_Dataset/7558679/2?file=20162015) on Brunel University Official Repository Website. It is a real, anonymised commercial dataset covering the operations of Olist, a marketplace that connects small businesses across Brazil to customers through a single contract.
+The Dataset is sourced from the [Supply Chain Logistics Problem Dataset by Brunel University](https://brunel.figshare.com/articles/dataset/Supply_Chain_Logistics_Problem_Dataset/7558679/2?file=20162015) on Brunel University Official Repository Website. It is a publicly available Supply Chain Logistics Dataset developed by Brunel University London researchers for transportation planning and optimization implementation The complete datasets consists of 7 worksheets each representing a different component of the Supply Chain Network and covering the Operational Data, which titled OrderList, FreightRates, WhCosts, WhCapacities, ProductsPerPlant, VmiCustomers, and PlantPorts. For this project, Optimization Model focuses **Minimizing Freight Transportation Cost**. Therefore, only the **OrderList** and **FreightRates** worksheets are used to formulate the Linear Programming Model as they contain the Customers Demand, Carrier Options, Transportation Routes, and Freight Rate Information as variables required for Optimization.
 
-| Table | Description |
+| OrderList Table | Description |
 |---|---|
-| `olist_orders_dataset` | Order lifecycle, statuses, and all key timestamps |
-| `olist_customers_dataset` | Customer unique identity and geolocation |
-| `olist_order_payments_dataset` | Payment values, types, and installment counts |
-| `olist_order_reviews_dataset` | Customer review scores and key timestamps |
-| `olist_order_items_dataset` | Item-level price, freight value, and seller mapping |
-| `olist_products_dataset` | Product attributes and raw category names |
-| `olist_sellers_dataset` | Seller identity and geolocation |
-| `product_category_name_translation` | Portuguese-to-English category name mapping |
+| `Order ID` | Order lifecycle, statuses, and all key timestamps |
+| `Order Date` | Customer unique identity and geolocation |
+| `Origin Port` | Payment values, types, and installment counts |
+| `Carrier` | Customer review scores and key timestamps |
+| `TPT` | Item-level price, freight value, and seller mapping |
+| `Service Level` | Product attributes and raw category names |
+| `Ship ahead day count` | Seller identity and geolocation |
+| `Customer` | Portuguese-to-English category name mapping |
+| `Product ID` | Portuguese-to-English category name mapping |
+| `Plant Code` | Portuguese-to-English category name mapping |
+| `Destination Port` | Portuguese-to-English category name mapping |
+| `Unit quantity` | Portuguese-to-English category name mapping |
+| `Weight` | Portuguese-to-English category name mapping |
+
+| FreightRates Table | Description |
+|---|---|
+| `Carrier` | Order lifecycle, statuses, and all key timestamps |
+| `orig_port_cd` | Customer unique identity and geolocation |
+| `dest_port_cd` | Payment values, types, and installment counts |
+| `minm_wgh_qty` | Customer review scores and key timestamps |
+| `max_wgh_qty` | Item-level price, freight value, and seller mapping |
+| `svc_cd` | Product attributes and raw category names |
+| `minimum cost` | Seller identity and geolocation |
+| `rate` | Portuguese-to-English category name mapping |
+| `mode_dsc` | Portuguese-to-English category name mapping |
+| `tpt_day_cnt` | Portuguese-to-English category name mapping |
+| `Carrier type` | Portuguese-to-English category name mapping |
 
 ## 🧠 Analyses
 
