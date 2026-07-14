@@ -26,36 +26,15 @@ Each of the **10 analyses** in this project follows a structured analytical fram
 ## 📂 Repository Structure
 
 ```
-SQL-Project_BrazilianE-Commerce
+OR-Project_SupplyChainLogisticBrunel
 │
-├── README.md                               ← README
+├── README.md                                ← README
 │
-├── queries                                 ← All SQL Query Files by Analysis
-│   ├── 01_true_clv.sql
-│   ├── 02_repeat_purchase_behaviour.sql    
-│   ├── 03_order_funnel_dropoff.sql
-│   ├── 04_late_delivery_impact.sql
-│   ├── 05_seller_revenue_stability.sql
-│   ├── 06_seller_sla_compliance.sql
-│   ├── 07_category_profitability_vs_volume.sql
-│   ├── 08_category_seasonality.sql
-│   ├── 09_installment_risk.sql
-│   └── 10_abnormal_payment_detection.sql
+├── data                                     ← Datasets Used For This Project
+│   └── supply_chain.xlsx
 │
-├── analysis                                 ← Full Analysis Report with Insights and Recommendations  
-│   ├── BrazilianE-Commerce_Analysis.docx
-│   └── BrazilianE-Commerce_Analysis.pdf
-│
-└── src                                      ← Source For This Project
-    └── data                                 ← Datasets Used For This Project
-        ├── olist_customers_dataset.csv
-        ├── olist_order_items_dataset.csv
-        ├── olist_order_payments_dataset.csv
-        ├── olist_order_reviews_dataset.csv
-        ├── olist_orders_dataset.csv
-        ├── olist_products_dataset.csv
-        ├── olist_sellers_dataset.csv
-        └── product_category_name_translation.csv
+└── src                                      ← Source Code
+    └── data                                 ← Linear Programming Optimization Model
 ```
 
 ## 📊 Dataset 
