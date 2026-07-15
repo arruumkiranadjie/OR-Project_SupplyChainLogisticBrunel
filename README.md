@@ -52,26 +52,27 @@ The Dataset is sourced from the [Supply Chain Logistics Problem Dataset by Brune
 
 | OrderList Table | Description |
 |---|---|
-| `Order ID` | Order lifecycle, statuses, and all key timestamps |
-| `Order Date` | Customer unique identity and geolocation |
-| `Origin Port` | Payment values, types, and installment counts |
-| `Carrier` | Customer review scores and key timestamps |
-| `TPT` | Item-level price, freight value, and seller mapping |
-| `Service Level` | Product attributes and raw category names |
-| `Ship ahead day count` | Seller identity and geolocation |
-| `Customer` | Portuguese-to-English category name mapping |
-| `Product ID` | Portuguese-to-English category name mapping |
-| `Plant Code` | Portuguese-to-English category name mapping |
-| `Destination Port` | Portuguese-to-English category name mapping |
-| `Unit quantity` | Portuguese-to-English category name mapping |
-| `Weight` | Portuguese-to-English category name mapping |
+| `Order ID` | Unique ID Assigned To Each Customer Order |
+| `Order Date` | Date Which Customer Order Was Placed |
+| `Origin Port` | First Port Which Shipment Is Dispatched (Depot) |
+| `Carrier` | Transportation Carrier To Deliver The Shipment |
+| `TPT` | Transportation Delivering Process For Shipment |
+| `Service Level` | Shipment Service Level Category For Delivery Speed |
+| `Ship ahead day count` | Day Count For Early Arrival Shipment |
+| `Ship Late Day count` | Day Count For Late Arrival Shipment |
+| `Customer` | Unique ID Assigned To Each Customer |
+| `Product ID` | Unique ID Assigned To Each Product Order |
+| `Plant Code` | Manufacturing Plant or Warehouse Supplying The Product |
+| `Destination Port` | Final Port Shipment Which Customer Destination |
+| `Unit quantity` | Product Unit Count Ordered |
+| `Weight` | Total Product Weight Ordered |
 
 | FreightRates Table | Description |
 |---|---|
-| `Carrier` | Order lifecycle, statuses, and all key timestamps |
-| `orig_port_cd` | Customer unique identity and geolocation |
-| `dest_port_cd` | Payment values, types, and installment counts |
-| `minm_wgh_qty` | Customer review scores and key timestamps |
+| `Carrier` | Transportation Carrier To Deliver The Shipment |
+| `orig_port_cd` | First Port Which Shipment Is Dispatched (Depot) |
+| `dest_port_cd` | Final Port Shipment Which Customer Destination |
+| `minm_wgh_qty` | Minimum Weight |
 | `max_wgh_qty` | Item-level price, freight value, and seller mapping |
 | `svc_cd` | Product attributes and raw category names |
 | `minimum cost` | Seller identity and geolocation |
