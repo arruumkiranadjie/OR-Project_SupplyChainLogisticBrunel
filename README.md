@@ -72,14 +72,14 @@ The Dataset is sourced from the [Supply Chain Logistics Problem Dataset by Brune
 | `Carrier` | Transportation Carrier To Deliver The Shipment |
 | `orig_port_cd` | First Port Which Shipment Is Dispatched (Depot) |
 | `dest_port_cd` | Final Port Shipment Which Customer Destination |
-| `minm_wgh_qty` | Minimum Weight |
-| `max_wgh_qty` | Item-level price, freight value, and seller mapping |
-| `svc_cd` | Product attributes and raw category names |
-| `minimum cost` | Seller identity and geolocation |
-| `rate` | Portuguese-to-English category name mapping |
-| `mode_dsc` | Portuguese-to-English category name mapping |
-| `tpt_day_cnt` | Portuguese-to-English category name mapping |
-| `Carrier type` | Portuguese-to-English category name mapping |
+| `minm_wgh_qty` | Minimum Weight Required For Chosen Freight Rate|
+| `max_wgh_qty` | Minimum Weight Required For Chosen Freight Rate |
+| `svc_cd` | Shipment Service Level Category For Delivery Speed |
+| `minimum cost` | Minimum Delivery Rate Applied |
+| `rate` | Freight Delivery Rate As Cost Per Unit Of Weight |
+| `mode_dsc` | Transportation Mode |
+| `tpt_day_cnt` | Estimated Transportation Delivery Day Count |
+| `Carrier type` | Transportation Carrier Category |
 
 ## 🧠 Analyses
 
