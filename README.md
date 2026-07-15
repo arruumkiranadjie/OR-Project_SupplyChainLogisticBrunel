@@ -94,21 +94,47 @@ The Dataset is sourced from the [Supply Chain Logistics Problem Dataset by Brune
 | PORT04 | PORT09 | DTP |
 | PORT04 | PORT09 | DTD |
 
-3.    **Order Funnel Drop-Off:** Maps the lifecycle from payment to delivery to pinpoint operational bottlenecks and reduce friction in the fulfillment chain.
+3.    **OrderxCarrier Options:** Every feasible OrderxCarrier combinations were generated to establish the decision variables for Optimization Model. To improve timestamp and computational efficiency, data sampling are applied in creating a random sample of 500 orders selected from OrderList table. The sampling generated 1,924 feasible OrderxCarrier combinations with each order having an average of 3-4 eligible Carrier options.
 
-4.    **Late Delivery Impact on Reviews:** Quantifies how shipping delays damage customer sentiment and review scores to treat lateness as a primary reputational risk.
+4.    **Decision Variables:** Decision Variables of the Linear Programming Optimization Model defines a total of 839 Order-Carrier unique combination options and a binary  type. Decision Variables are represented as:
 
-5.    **Seller Revenue Stability:** Measures monthly volatility and concentration at the seller level to identify reliable partners and predict platform cash flow.
+$$
+x_{0,v444_0} , x_{1,V444_8} , x_{1,V444_0} , ... , x_{498,V444_0} , x_{498,V444_4} , x_{499,V444_0}
+$$
 
-6.    **Seller SLA Compliance:** Tracks shipment speed against promised deadlines to identify underperforming sellers and mitigate platform trust erosion.
+5.    **Objective Function:** Obtained an Objective Function formulated from:
 
-7.    **Category Profitability vs Volume:** Evaluates product categories to distinguish between high-effort/low-margin items and strategic high-value growth areas.
+$$
+Max(MinimumCost , Rate*Weight)
+$$
 
-8.    **Category Seasonality Detection:** Uses historical order patterns to detect demand spikes, allowing for better inventory planning and targeted promotions.
+Objective Function is represented as:
 
-9.    **Installment Risk Analysis:** Examines how payment flexibility impacts review scores and long-term financial risk across multiple billing cycles.
+$$
+\begin{aligned}
+\min Z =\&
+2.9984x_{0,v444_0} + 6.9104x_{100,v444_0} + 39.1432265407602x_{100,v444_4} + ... + \\
+&7.887861583412498x_{98,v444_0} + 2.9984x_{99,v444_0} + 2.9984x_{9,v444_0}\\
+\end{aligned}
+$$
 
-10.   **Abnormal Payment Detection:** Identifies suspicious payment characteristics and mismatches to mitigate fraud, disputes, and operational anomalies.
+6.    **Constraints:** Constraints of the Linear Programming Optimization Model defines a total of 500 constraints which represented as:
+
+$$
+\begin{aligned}
+x_{0,V444_0} &= 1\\
+x_{1,V444_0} + x_{1,V444_4} + x_{1,V444_8} &= 1\\
+x_{2,V444_0} &= 1\\
+\\
+... &...\\
+\\
+x_{499,V444_0} &= 1
+\end{aligned}
+$$
+
+7.    **Linear Programming Model:** Evaluates product categories to distinguish between high-effort/low-margin items and strategic high-value growth areas.
+
+8.    **Optimal Solution:** Uses historical order patterns to detect demand spikes, allowing for better inventory planning and targeted promotions.
 
 ## 🛠️ SQL Techniques Reference
 
