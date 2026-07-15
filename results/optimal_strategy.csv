@@ -1,0 +1,4 @@
+Optimal Strategy,Cost (500 Orders) ($),"Cost (8,361 Orders) ($)",Savings To Historical ($)
+Historical (Most Expensive),7390.84054882833,123589.63565750734,
+Greedy (Most Cheap),2029.8760001326632,33943.5864742184,5360.964548695667
+Linear Programming Simplex Optimal,2917.85644652739,48792.395498831014,4472.984102300939
