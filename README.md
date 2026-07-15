@@ -132,20 +132,9 @@ x_{499,V444_0} &= 1
 \end{aligned}
 $$
 
-7.    **Linear Programming Model:** Evaluates product categories to distinguish between high-effort/low-margin items and strategic high-value growth areas.
+7.    **Linear Programming Model:** Constructed the Linear Programming Model by using the PuLP library PULP_CBC_CMD() solver by integrating the Decision Variables, Objective Function, and Constraints into the model to obtain the Optimal Freight Allocation Strategy.
 
-8.    **Optimal Solution:** Uses historical order patterns to detect demand spikes, allowing for better inventory planning and targeted promotions.
-
-## 🛠️ SQL Techniques Reference
-
-| Technique | Implementation |
-|---|---|
-| Common Table Expressions (CTEs) | `WITH` |
-| Window Functions | `SUM OVER`, `ROW_NUMBER`, `NTILE` |
-| Conditional Aggregation | `CASE WHEN`, `HAVING` in `GROUP BY`|
-| Statistical Functions | `STDDEV`, `AVG`, `NULLIF` |
-| Date Arithmetic | `TIMESTAMPDIFF`, `DATE_FORMAT`, `MONTH` |
-| Multi-table JOINs | `JOIN` |
+8.    **Optimal Solution:** The Linear Programming Model reached an Optimal Solution achieving a Minimum Total Freight Transportation Cost of $2,917.8564 for 500 sampled orders.
 
 ## 💡 Key Findings Summary
 
