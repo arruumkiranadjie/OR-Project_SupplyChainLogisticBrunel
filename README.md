@@ -84,9 +84,15 @@ The Dataset is sourced from the [Supply Chain Logistics Problem Dataset by Brune
 ## 🧠 Analyses
 
 
-1.    **True Customer Lifetime Value (CLV):** Identifies top-tier customers by measuring total spend and the velocity of value generation to prioritize high-impact retention.
+1.    **Operations Research Freight Cost Optimization:** Determines optimal solution of Minimizing Freight Cost of Supply Chain Logistics Problem. 
 
-2.    **Repeat Purchase Behaviour:** Quantifies how quickly customers return within 30-90 days to optimize early engagement and remarketing timing.
+2.    **Exploratory Data Analysis:** Focusing on OrderList and FreightRates tables, the analysis identified a total of 9,215 orders registered in OrderList table and 1,540 valid Freight Rates available across 9 carrier option in FreightRates table. Since FreightRates table only provides pricing for DTD and DTP Shipment Service Level Category For Delivery Speed, orders with CRF Service Level were excluded, resulting in 8,361 orders included in the Optimization Model. Considering each unique combination of Origin Port, Destination Port, and Service Level with available Carrier options, the analysis identified 3 feasible Transportation Routes:
+
+| Origin Port | Destination Port | Service Level |
+|---|---|---|
+| PORT09 | PORT09 | DTP |
+| PORT04 | PORT09 | DTP |
+| PORT04 | PORT09 | DTD |
 
 3.    **Order Funnel Drop-Off:** Maps the lifecycle from payment to delivery to pinpoint operational bottlenecks and reduce friction in the fulfillment chain.
 
