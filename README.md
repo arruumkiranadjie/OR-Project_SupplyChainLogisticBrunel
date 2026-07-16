@@ -15,15 +15,7 @@
 
 ## 📌 Overview
 
-*Operations Research Project - Freight Cost Minimization Supply Chain Logistics Brunel* provides a business-first, data-driven diagnostic of one of Brazil’s largest e-commerce marketplace, **Olist**. Moving beyond descriptive statistics, this analysis utilizes advanced SQL to dissect the commercial lifecycle of over **100,000** orders spans from **2016–2018**. The primary objective is to identify levers for **revenue stability, customer retention, and operational excellence** by uncovering hidden frictions in the order funnel and seller performance.
-
-Each of the **10 analyses** in this project follows a structured analytical framework:
-
-1. **Business Context:**  Identifies the specific business pain point or opportunity
-2. **Hypothesis:**  Assumptions and definitions underpinning the query logic
-3. **SQL Query:**  Complete and production-quality query using advanced techniques
-4. **Key Insight:**  Data-driven findings that pinpoint where the business is succeeding or leaking value
-5. **Business Recommendation:**  An evidence-based roadmap for stakeholders
+*Operations Research Project - Freight Cost Minimization Supply Chain Logistics Brunel* aims to provide a business solution for Minimizing Freight Carrier Transportation Costs by constructing **Optimization Model** using **Linear Programming (LP) Simplex Method** in Operations Research. The Mathematical Optimization Model determines the most cost-efficient carrier assignment by considering operational and transportation constraints. Deployed using **PuLP (CBC Solver)**, the Optimization Model integrates **Decision Variables**, **Objective Function**, and **Constraints** to obtain the optimal solution. The Model combines **Customer Orders, Carrier Availability , Freight Rates, Transportation Routes, and Service-Level** requirements to identify optimal shipment allocation strategy.
 
 ## 📂 Repository Structure
 
