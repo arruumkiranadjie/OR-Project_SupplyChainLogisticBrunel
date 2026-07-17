@@ -130,11 +130,17 @@ $$
 
 ## 💡 Key Findings Summary
 
-- **Customer Retention Is Critically Low:** Only 2.05% of customers make a second purchase within 90 days, making early activation campaigns the highest-ROI retention investment.
-- **The Funnel Bottleneck Is Post-Payment, Not Checkout:** 98.44% of orders pass payment approval, but the gap between payment and shipment is where the platform loses the most value.
-- **Late Delivery Is The #1 Review Score Killer:** More than half of customers who receive a late order leave a negative review, with disproportionate 1–2 star rates vs on-time deliveries.
-- **Revenue Stability Matters More Than Revenue Size:** Sellers with moderate but consistent revenue outperform high-revenue volatile sellers on platform risk metrics.
-- **High Order Volume ≠ High Profitability:** Several top-volume product categories fall in the bottom revenue quartile, creating logistics resources that outpace their commercial contribution.
+- **Achieve Optimal Solution With Significant Cost Reduction:** Linear Programming Optimization Model identified the globally optimal carrier assignment and reducing total Transportation Costs by 60.5%
+
+| Optimal Strategy | Cost (500 Orders) | Cost (8,361 Orders) | Savings To Historical |
+|---|---|---|---|
+| Historical (Most Expensive) | $7,390.8405 | $123,590 | Baseline |
+| Greedy (Most Cheap) | $2,029.8760 | $33,944 | $5,360.9645 |
+| Linear Programming Simplex Optimal | $2,917.8564 | $48,792 | $4,472.9841 (60.5%) |
+
+- **Optimization Balanced Cost Efficiency with Operational Feasibility:** Compared to Greedy Method which only consider the lowest-cost carrier for each shipment, Linear Programming Optimization Model generated an optimal solution by considering all Operational Constraints emerges in the business, ensuring every shipment received a feasible carrier assignment.
+
+- **Mathematical Optimization Scales Decision-Making Across the Supply Chain:** Rather than only evaluating shipments into the formula, the Optimization Model evaluted all feasible Order-Carrier combinations as a complete Optimization Problem which leads to Decision Variable. The Optimization Model enabled a consistent and data-driven carrier assignments that could be scaled to larger Transportation Networks and additional Business Constraints.
 
 ## 👤 About The Author
 
