@@ -33,7 +33,7 @@ OR-Project_SupplyChainLogisticBrunel
 │   ├── mode_summary.csv
 │   ├── optimal_assignment.csv
 │   ├── optimal_strategy.csv
-│   └── optimal_strategy.csv
+│   └── OR_LP_SupplyChainLogisticBrunel.pbix
 │
 └── src                                           ← Source Code
     └── OR_LP_SupplyChainLogisticBrunel.ipynb     ← Linear Programming Optimization Model
