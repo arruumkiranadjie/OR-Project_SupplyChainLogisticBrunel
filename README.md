@@ -32,6 +32,7 @@ OR-Project_SupplyChainLogisticBrunel
 │   ├── dual_price.csv
 │   ├── mode_summary.csv
 │   ├── optimal_assignment.csv
+│   ├── optimal_strategy.csv
 │   └── optimal_strategy.csv
 │
 └── src                                           ← Source Code
